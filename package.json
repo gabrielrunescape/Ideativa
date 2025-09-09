@@ -8,7 +8,9 @@
         "format": "prettier --write resources/",
         "format:check": "prettier --check resources/",
         "lint": "eslint . --fix",
-        "types": "tsc --noEmit"
+        "types": "tsc --noEmit",
+        "bulma-build": "sass --load-path=node_modules resources/sass/ideativa.scss public/css/ideativa_style.css",
+        "bulma-watch": "npm run bulma-build -- --watch"
     },
     "devDependencies": {
         "@eslint/js": "^9.19.0",
@@ -20,6 +22,7 @@
         "prettier": "^3.4.2",
         "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-tailwindcss": "^0.6.11",
+        "sass-embedded": "^1.92.1",
         "typescript-eslint": "^8.23.0"
     },
     "dependencies": {

@@ -1,0 +1,116 @@
+@use "ideativa_variables.module" as *;
+
+.footer-839 {
+    .div-843 {
+        max-width: 592px;
+    }
+
+    p {
+        max-width: 491px;
+        font-family: $firaSans;
+        font-weight: 400;
+        font-size: 16px;
+        color: $pantone_cp;
+        margin-top: 30px;
+    }
+
+    .unordered-inline {
+        padding: 0;
+        list-style: none;
+        margin: 10px 0 0 0;
+
+        li {
+            display: inline-block;
+            margin: 0 10px;
+        }
+
+        li:first-child {
+            margin-right: 10px;
+            margin-left: 0;
+        }
+
+        li:last-child {
+            margin-left: 10px;
+            margin-right: 0px;
+        }
+    }
+
+    .social-media {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        border-radius: 32px;
+        align-items: center;
+        justify-content: center;
+        background-color: $sandy_brown;
+    }
+
+    .map-link {
+        font-family: $firaSans;
+        font-weight: 700;
+        font-size: 18px;
+        color: $sandy_brown;
+
+        ul {
+            padding: 0;
+            list-style: none;
+            margin: 10px 0 0 0;
+
+            li, a {
+                margin: 15px 0;
+                font-weight: 400;
+                font-size: 16px;
+                color: $pantone_cp;
+            }
+        }
+    }
+
+    .unordered-inline-end {
+        font-family: $firaSans;
+        font-weight: 400;
+        font-size: 16px;
+        color: $pantone_coated;
+        padding: 0;
+        list-style: none;
+        margin: 20px 0 60px 0;
+
+        ul {
+            float: right;
+
+            li, a {
+                margin: 0 10px;
+                display: inline-block;
+                color: $pantone_coated;
+            }
+
+            li:first-child {
+                margin-right: 10px;
+                margin-left: 0;
+            }
+
+            li:last-child {
+                margin-left: 10px;
+                margin-right: 0px;
+            }
+        }
+    }
+}
+
+.divider {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #4B5563;
+    letter-spacing: .5px;
+    margin: 10px 0;
+
+    &::after, &::before {
+        content: '';
+        display: block;
+        flex: 1;
+        height: 1px;
+        background-color: #4B5563;
+    }
+}

@@ -1,0 +1,364 @@
+@use "ideativa_variables.module" as *;
+
+.rounded-button-warning {
+    color: #FFFFFF;
+    font-weight: 700;
+    padding: 12px 24px;
+    margin-bottom: 50px;
+    border-radius: 9999px;
+    transform: rotate(-1deg);
+    border-color: $sandy_brown;
+    background-color: $sandy_brown;
+}
+
+.span-hero-41, .span-hero-44, .span-hero-48 {
+    font-family: "Fira Code", monospace;
+    font-weight: 700;
+    font-size: 100px;
+    color: #FFFFFF;
+    margin: -10px 0;
+    transform: rotate(-1deg);
+}
+
+.span-hero-44 {
+    color: $sandy_brown;
+    transform: rotate(1deg);
+}
+
+.span-hero-48 {
+    margin-top: -20px;
+    transform: rotate(-1.6sdeg);
+}
+
+.span-div-51 {
+    color: $sandy_brown;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.div-51 {
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    height: 80.5px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border: 4px solid $sandy_brown;
+}
+
+.div-51-inside {
+    height: 80.5px;
+    background-color: $pantone_blue;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    margin: -4px;
+    margin-left: 0;
+    display: flex;
+    padding: 0 26px;
+    align-items: center;
+}
+
+.button-div-69 {
+    width: 118px;
+    height: 88px;
+    transform: rotate(1.81deg);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: $sandy_brown;
+}
+
+.button-div-83 {
+    width: 118px;
+    height: 88px;
+    transform: rotate(1.19deg);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: $sandy_brown;
+}
+
+.button-div-76 {
+    width: 118px;
+    height: 88px;
+    transform: rotate(-1.41deg);
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: $pantone_blue;
+}
+
+.button-div-69, .button-div-83 {
+    .button-div-top {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        padding-left: 20px;
+        width: 118px;
+        margin-bottom: -10px;
+        margin-top: -13px;
+    }
+
+    .button-div-bottom {
+        font-family: "Fira Code", monospace;
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: 20px;
+        margin-top: -10px;
+        width: 118px;
+        text-transform: uppercase;
+    }
+}
+
+.button-div-76 {
+    .button-div-top {
+        font-family: "Fira Sans", sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        padding-left: 20px;
+        width: 118px;
+        color: $sandy_brown;
+        margin-bottom: -10px;
+        margin-top: -13px;
+    }
+
+    .button-div-bottom {
+        font-family: "Fira Code", monospace;
+        font-weight: 700;
+        font-size: 14px;
+        padding-left: 20px;
+        margin-top: -10px;
+        width: 118px;
+        text-transform: uppercase;
+    }
+}
+
+.button-91 {
+    transform: rotate(-1deg);
+    justify-content: center;
+    border-radius: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 330px;
+    height: 80px;
+    padding: 0;
+    white-space: nowrap;
+}
+
+.button-97 {
+    transform: rotate(1deg);
+    justify-content: center;
+    border-radius: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 330px;
+    height: 80px;
+    padding: 0;
+    white-space: nowrap;
+    border: 4px solid #FFFFFF;
+}
+
+.span-button-fira-code {
+    font-family: "Fira Code", monospace;
+    margin-right: 10px;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.button-91 {
+    .span-button-fira-code {
+        margin-right: 10px;
+    }
+}
+
+.button-97 {
+    .span-button-fira-code {
+        margin-left: 10px;
+    }
+}
+
+.button-div-1307 {
+    width: 175px;
+    height: 96px;
+    border-radius: 24px;
+    transform: rotate(12deg);
+    margin-left: 63%;
+    z-index: 5;
+    position: relative;
+    box-shadow: 0.5px 1px 1.5px #1f1f1f;
+
+    .pallete {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        border-radius: 16px;
+        justify-content: center;
+        background: rgb(255, 255,255 , 0.2);
+    }
+
+    .span-title {
+        font-family: "Fire Sans", sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 18px;
+        margin-bottom: -5px;
+        color: #FFFFFF;
+    }
+
+    .span-body {
+        font-family: "Fire Sans", sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: -5px;
+        color: #FFFFFF;
+    }
+}
+
+.card-bordered {
+    width: 516.43px;
+    height: 600px;
+    margin-top: -75px;
+    border-radius: 24px;
+    border: 8px solid $sandy_brown;
+    background-color: #FFFFFF;
+    transform: rotate(3deg);
+    z-index: 1;
+    position: relative;
+    font-family: "Fira Sans", sans-serif;
+
+    .bell-rocket {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        border-radius: 24px;
+        justify-content: center;
+        transform: rotate(-9deg);
+        background-color: $elite_blue;
+    }
+
+    .card-bordered-title {
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 30px;
+        margin: 20px 0;
+        transform: rotate(2deg);
+
+        .span-title-orange {
+            color: $sandy_brown;
+            margin-top: -10px;
+        }
+
+        .span-title-blue {
+            color: $elite_blue;
+            margin-bottom: -10px;
+        }
+    }
+
+    p {
+        font-size: 18px;
+        font-weight: 600;
+        color: $elite_blue;
+        margin-bottom: 20px;
+    }
+
+    .row-graph {
+        display: flex;
+        align-items: center;
+        margin-top: 130px;
+
+        p {
+            font-weight: 600;
+            font-size: 20px;
+            color: $elite_blue;
+            text-transform: uppercase;
+            transform: rotate(-2.78deg);
+        }
+
+        .div-graph {
+            width: 143px;
+            height: 102px;
+            display: flex;
+            align-items: baseline;
+            justify-content: center;
+            transform: rotate(1.34deg);
+
+            .div-graph-1299 {
+                width: 16px;
+                height: 32px;
+                margin-right: 10px;
+                background-color: $elite_blue;
+            }
+
+            .div-graph-1300 {
+                width: 16px;
+                height: 48px;
+                margin-right: 10px;
+                background-color: $sandy_brown;
+            }
+
+            .div-graph-1301 {
+                width: 16px;
+                height: 80px;
+                margin-right: 10px;
+                background-color: $elite_blue;
+            }
+
+            .div-graph-1302 {
+                width: 16px;
+                height: 64px;
+                background-color: $sandy_brown;
+            }
+        }
+    }
+}
+
+.button-div-1319 {
+    width: 166px;
+    height: 96px;
+    border-radius: 24px;
+    box-shadow: 0.5px 1px 1.5px #1f1f1f;
+    margin-top: -40px;
+    z-index: 3;
+    position: relative;
+    transform: rotate(-12deg);
+
+    .graph {
+        width: 48px;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        border-radius: 16px;
+        justify-content: center;
+        background: $sandy_brown;
+    }
+
+    .span-title {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 18px;
+        margin-bottom: -5px;
+        color: $sandy_brown;
+    }
+
+    .span-body {
+        font-family: "Roboto", sans-serif;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 14px;
+        margin-top: -5px;
+        color: #FFFFFF;
+    }
+}

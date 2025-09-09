@@ -1,0 +1,11 @@
+@use "ideativa_variables.module" as *;
+
+@use "bulma/sass" with (
+    $link: $elite_blue,
+    $warning: $sandy_brown,
+    $family-primary: $firaSans,
+);
+
+@use "ideativa_hero";
+@use "ideativa_aboutus";
+@use "ideativa_footer";

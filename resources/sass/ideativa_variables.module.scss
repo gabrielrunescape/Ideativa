@@ -1,0 +1,28 @@
+// Imports
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+/* Colours: https://www.123freevectors.com/color */
+$elite_blue: #1A3556;
+$pantone_blue: #334368;
+$pantone_coated: #9CA3AF;
+$pantone_cp :#D1D5DB;
+$pantone_up: #4B5563;
+$sandy_brown: #f4a260;
+$white: #FFFFFF;
+
+// Font families from Imports
+$roboto: "Roboto", sans-serif;
+$firaCode: "Fira Code", monospace;
+$firaSans: "Fira Sans", sans-serif;
+
+:export {
+    eliteBlue: $elite_blue;
+    sandBrown: $sandy_brown;
+    pantoneBlue: $pantone_blue;
+    pantoneCoated: $pantone_coated;
+    pantoneCp: $pantone_cp;
+    pantoneUp: $pantone_up;
+    white: $white;
+}
