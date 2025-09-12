@@ -1,7 +1,7 @@
 import {Button, Container, Image, Navbar} from 'react-bulma-components';
 import { Link } from '@inertiajs/react';
 
-import logo from '/public/img/testes_logo-17.png';
+import logo from '/public/img/ideativa_logo.svg';
 
 export function iHeader() {
     return (
@@ -10,7 +10,7 @@ export function iHeader() {
                 <Container>
                     <Navbar.Brand>
                         <Navbar.Item href="/" renderAs="a">
-                            <img src={logo} height={44} />
+                            <Image src={logo} alt="Ideativa Logo" />
                         </Navbar.Item>
                     </Navbar.Brand>
 

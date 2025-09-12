@@ -9,8 +9,9 @@ $pantone_blue: #334368;
 $pantone_coated: #9CA3AF;
 $pantone_cp :#D1D5DB;
 $pantone_up: #4B5563;
-$sandy_brown: #f4a260;
+$sandy_brown: #F4A260;
 $white: #FFFFFF;
+$white_smoke: #F4F4F3;
 
 // Font families from Imports
 $roboto: "Roboto", sans-serif;
@@ -25,4 +26,5 @@ $firaSans: "Fira Sans", sans-serif;
     pantoneCp: $pantone_cp;
     pantoneUp: $pantone_up;
     white: $white;
+    $whiteSmoke: $white_smoke;
 }

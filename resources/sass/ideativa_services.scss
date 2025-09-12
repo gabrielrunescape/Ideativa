@@ -1,0 +1,143 @@
+@use "ideativa_variables.module" as *;
+
+.services {
+    font-family: $firaSans;
+
+    .div-100 {
+        min-height: 104px;
+        font-weight: 400;
+        font-size: 20px;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+        justify-content: center;
+
+        p {
+            max-width: 768px;
+        }
+    }
+
+    .title.is-1 {
+        font-family: $firaSans;
+        font-weight: 700;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: $elite_blue;
+        text-align: center;
+
+
+        @media only screen and (max-width: 768px) {
+            font-size: 35px;
+        }
+    }
+
+    .card {
+        @media only screen and (max-width: 768px) {
+            width: 384px;
+        }
+
+        padding: 32px;
+        border-radius: 12px;
+        width: 384px;
+        height: 600px;
+        box-shadow: 0 0 $white_smoke;
+        background-color: $white_smoke;
+
+        .content {
+            font-size: 16px;
+            text-align: left;
+        }
+
+        .svg {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            border-radius: 32px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            background-color: $elite_blue
+        }
+
+        ul {
+            li {
+                font-size: 16px;
+                list-style-type: none;
+                margin-bottom: 1rem;
+                background: url('data:image/svg+xml,<svg width="12" height="22" viewBox="0 0 12 22" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5.98308 0.557476C3.13023 0.981592 0.993007 3.89643 0.250408 6.58667C-0.234231 8.34295 0.0175409 10.194 0.722331 11.8474C1.10712 12.7501 1.65208 13.4886 2.15597 14.316C2.81384 15.3963 2.8214 16.527 2.75215 17.7665C2.75404 17.734 2.76847 17.6943 2.78909 17.6511C2.77019 17.7042 2.76418 17.7601 2.77621 17.8191C2.67326 17.9221 2.58372 18.0572 2.50931 18.2434C2.47339 18.3332 2.45294 18.4155 2.43902 18.4949C2.43833 18.4962 2.43765 18.4974 2.43696 18.4986C2.43747 18.4981 2.43816 18.4976 2.4385 18.4971C2.36134 18.9459 2.62171 19.2326 3.06475 19.409C3.01045 19.4157 2.9613 19.4219 2.92383 19.4263C2.7164 19.4511 2.61036 20.1618 2.50295 20.1745C3.53358 20.0511 6.78806 19.3874 7.53839 20.6723C6.87725 20.8457 5.86776 20.7519 5.4077 20.7187C4.53844 20.6561 3.67296 20.6746 2.80525 20.619C2.6315 20.6079 2.44589 21.3713 2.38437 21.3672C3.73088 21.4533 5.19287 21.5788 6.5344 21.4334C7.22475 21.3586 7.70458 21.3459 7.98436 20.646C8.02011 20.5562 8.04073 20.4739 8.05465 20.3945C8.05534 20.3932 8.05603 20.392 8.05654 20.3908C8.05603 20.3913 8.05534 20.3918 8.055 20.3923C8.13216 19.9435 7.8718 19.6568 7.42875 19.4804C7.48305 19.4737 7.5322 19.4675 7.56967 19.4631C7.7771 19.4383 7.88314 18.7276 7.99055 18.7148C6.95992 18.8381 3.70544 19.5018 2.95494 18.2169C3.61608 18.0435 4.62557 18.1373 5.0858 18.1705C5.95489 18.2329 6.82054 18.2146 7.68825 18.2702C7.862 18.2813 8.04743 17.5179 8.10913 17.5218C8.09968 17.5213 8.09005 17.5206 8.0806 17.5199C8.0837 17.5149 8.08885 17.5121 8.09143 17.5068C8.20761 17.2695 8.32808 17.0246 8.37482 16.7612C8.39923 16.624 8.40593 16.4853 8.39063 16.3497C8.39768 16.2935 8.39923 16.2385 8.38771 16.1863C8.02337 14.5562 8.25246 14.3002 9.19081 13.2344C9.61375 12.754 9.98702 12.2569 10.3242 11.7085C11.0029 10.605 11.6088 9.41118 11.8682 8.12348C12.6135 4.42269 10.1371 -0.0601754 5.98308 0.557476ZM10.8247 9.54596C10.6576 10.6777 10.1601 11.2722 9.44241 12.1177C8.15949 13.6292 7.02316 15.436 7.17663 17.4609C6.10475 17.3928 4.9961 17.3434 3.9591 17.4558C3.82935 17.4699 3.70957 17.4826 3.59459 17.4973C3.64959 17.3879 3.67966 17.2612 3.70475 17.1337C3.74548 16.9251 3.77556 16.7141 3.80478 16.5031C3.82557 16.3528 3.84379 16.2053 3.8431 16.0568C3.85908 16.0005 3.87128 15.9451 3.87421 15.8922C3.95928 14.3702 3.86475 13.2677 3.02918 11.9892C2.21182 10.738 1.51769 9.45352 1.24598 7.95306C0.83885 5.70598 1.46837 3.99716 3.50488 2.98627C5.18583 2.15179 6.89599 2.45771 8.39338 3.51306C9.68438 4.42287 10.4705 5.48563 10.774 7.08083C10.9274 7.8876 10.9448 8.73196 10.8247 9.54596Z" fill="%23F5A261"/></svg>') no-repeat left top;
+                padding-left: 24px;
+            }
+        }
+
+        .button {
+            width: 100%;
+            height: 48px;
+            color: $white;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-transform: capitalize;
+        }
+    }
+
+    .box-services{
+        @media only screen and (max-width: 768px) {
+            font-size: 12px;
+        }
+
+        color: $white;
+        font-size: 20px;
+        font-weight: 400;
+        text-align: center;
+        border-radius: 16px;
+        font-family: $firaSans;
+        background-color: $elite_blue;
+
+        .title {
+            @media only screen and (max-width: 768px) {
+                font-size: 20px;
+            }
+            color: $white;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        .box-column {
+            border: 12px;
+            padding: 24px;
+            text-align: start;
+            background-color: rgb($white, 0.1);
+
+            .subtitle {
+                font-size: 20px;
+                font-weight: 500;
+                color: $sandy_brown;
+            }
+
+            .content {
+                font-size: 16px;
+                margin-top: 20px;
+                font-weight: 200;
+                color: $pantone_cp;
+            }
+        }
+
+        .button {
+            @media only screen and (max-width: 768px) {
+                width: 100%;
+            }
+
+            border: 0;
+            color: $white;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 8px;
+            padding: 16px 32px;
+            margin: 20px 0;
+            background-color: $sandy_brown;
+        }
+    }
+}
+
