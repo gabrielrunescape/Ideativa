@@ -21909,16 +21909,15 @@ has-background-danger.is-hoverable:active {
   color: #FFFFFF;
 }
 
-.about-us.title {
-  font-family: "Fira Sans", sans-serif;
-  font-weight: 700;
-  font-size: 70px;
-  text-transform: uppercase;
-  color: #F4A260;
-  text-align: center;
+@media only screen and (max-width: 768px) {
+  .about-us {
+    background-color: #FFFFFF;
+  }
 }
-
-p.about-us {
+.about-us {
+  background-color: #F4F4F3;
+}
+.about-us p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 18px;
@@ -21926,11 +21925,26 @@ p.about-us {
   color: #4B5563;
   margin-bottom: 50px;
 }
-
-.div-39 {
-  min-width: 280px;
+.about-us .title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 70px;
+  text-transform: uppercase;
+  color: #F4A260;
+  text-align: center;
 }
-.div-39 .svg {
+@media only screen and (max-width: 768px) {
+  .about-us .div-39 {
+    margin: 32px auto;
+    background-color: #F4F4F3;
+  }
+}
+.about-us .div-39 {
+  max-width: 280px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.about-us .div-39 .svg {
   width: 64px;
   height: 64px;
   display: flex;
@@ -21940,7 +21954,7 @@ p.about-us {
   margin-bottom: 24px;
   background-color: rgba(244, 162, 96, 0.2);
 }
-.div-39 .subtitle {
+.about-us .div-39 .subtitle {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -21948,17 +21962,16 @@ p.about-us {
   color: #1A3556;
   text-transform: capitalize;
 }
-.div-39 .content {
+.about-us .div-39 .content {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
   color: #4B5563;
 }
-
-.div-80 {
+.about-us .div-80 {
   margin-top: 80px;
 }
-.div-80 .subtitle {
+.about-us .div-80 .subtitle {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -21967,13 +21980,13 @@ p.about-us {
   margin-bottom: 50px;
   text-transform: capitalize;
 }
-.div-80 p {
+.about-us .div-80 p {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #4B5563;
 }
-.div-80 .meeting {
+.about-us .div-80 .meeting {
   color: #FFFFFF;
   font-size: 18px;
   font-weight: 700;
@@ -21981,11 +21994,95 @@ p.about-us {
   font-family: "Fira Sans", sans-serif;
   border-radius: 12px;
 }
-.div-80 .img-meeting {
+.about-us .div-80 .img-meeting {
   max-width: 536px;
 }
-.div-80 .img-meeting img {
+.about-us .div-80 .img-meeting img {
   border-radius: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us {
+    font-size: 12px;
+  }
+}
+.contact-us {
+  font-size: 20px;
+  font-weight: 300;
+  color: #4B5563;
+  text-align: center;
+  font-family: "Fira Sans", sans-serif;
+  background-color: #F4F4F3;
+}
+.contact-us .div-852 {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.contact-us .div-852 p {
+  max-width: 768px;
+}
+@media only screen and (max-width: 768px) {
+  .contact-us .title {
+    font-size: 35px;
+  }
+}
+.contact-us .title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #1A3556;
+  text-transform: uppercase;
+}
+.contact-us .box-contact {
+  border-radius: 12px;
+  margin-bottom: 30px;
+  text-align: start;
+  vertical-align: center;
+  background-color: rgba(255, 255, 255, 0.95);
+}
+.contact-us .box-contact span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1A3556;
+}
+.contact-us .box-contact a {
+  font-size: 16px;
+  font-weight: 300;
+  color: #4B5563;
+}
+.contact-us .box-contact .svg {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  border-radius: 32px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(244, 162, 96, 0.2);
+}
+.contact-us .box-email {
+  font-size: 16px;
+  text-align: start;
+  box-shadow: 0 0 #2ca02c;
+  background-color: transparent;
+}
+.contact-us .box-email .label {
+  font-size: 14px;
+  font-weight: 600;
+  color: #1A3556;
+}
+.contact-us .box-email .input {
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 8px;
+}
+.contact-us .box-email .button {
+  color: #FFFFFF;
+  padding: 16px 0;
+  font-size: 18px;
+  margin-top: 24px;
+  font-weight: 700;
+  border-radius: 8px;
+  font-family: "Fira Sans", sans-serif;
 }
 
 .services {

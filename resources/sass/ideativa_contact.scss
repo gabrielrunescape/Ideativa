@@ -1,0 +1,95 @@
+@use "ideativa_variables.module" as *;
+
+.contact-us {
+    @media only screen and (max-width: 768px) {
+        font-size: 12px;
+    }
+
+    font-size: 20px;
+    font-weight: 300;
+    color: $pantone_up;
+    text-align: center;
+    font-family: $firaSans;
+    //background-color: #F2F1F2;
+    background-color: $white_smoke;
+
+    .div-852 {
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+
+        p {
+            max-width: 768px;
+        }
+    }
+
+    .title {
+        @media only screen and (max-width: 768px) {
+            font-size: 35px;
+        }
+
+        font-size: 60px;
+        font-weight: 700;
+        color: $elite_blue;
+        text-transform: uppercase;
+    }
+
+    .box-contact {
+        border-radius: 12px;
+        margin-bottom: 30px;
+        text-align: start;
+        vertical-align: center;
+        background-color: rgb($white, 0.95);
+
+        span {
+            font-size: 16px;
+            font-weight: 700;
+            color: $elite_blue;
+        }
+
+        a {
+            font-size: 16px;
+            font-weight: 300;
+            color: $pantone_up;
+        }
+
+        .svg {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            border-radius: 32px;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb($sandy_brown, 0.2);
+        }
+    }
+
+    .box-email {
+        font-size: 16px;
+        text-align: start;
+        box-shadow: 0 0 #2ca02c;
+        background-color: transparent;
+
+        .label {
+            font-size: 14px;
+            font-weight: 600;
+            color: $elite_blue;
+        }
+
+        .input {
+            font-family: $firaSans;
+            border-radius: 8px;
+        }
+
+        .button {
+            color: $white;
+            padding: 16px 0;
+            font-size: 18px;
+            margin-top: 24px;
+            font-weight: 700;
+            border-radius: 8px;
+            font-family: $firaSans;
+        }
+    }
+}

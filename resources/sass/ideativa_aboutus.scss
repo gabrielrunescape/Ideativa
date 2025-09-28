@@ -1,88 +1,105 @@
 @use "ideativa_variables.module" as *;
 
-.about-us.title {
-    font-family: $firaSans;
-    font-weight: 700;
-    font-size: 70px;
-    text-transform: uppercase;
-    color: $sandy_brown;
-    text-align: center;
-}
-
-p.about-us {
-    font-family: $firaSans;
-    font-weight: 400;
-    font-size: 18px;
-    text-align: center !important;
-    color: $pantone_up;
-    margin-bottom: 50px;
-}
-
-.div-39 {
-    min-width: 280px;
-
-    .svg {
-        width: 64px;
-        height: 64px;
-        display: flex;
-        border-radius: 32px;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 24px;
-        background-color: rgb($sandy_brown, 0.2);
+.about-us {
+    @media only screen and (max-width: 768px) {
+        background-color: $white;
     }
 
-    .subtitle {
-        font-family: $firaSans;
-        font-weight: 700;
-        font-size: 22px;
-        vertical-align: middle;
-        color: $elite_blue;
-        text-transform: capitalize;
-    }
-
-    .content {
-        font-family: $firaSans;
-        font-weight: 400;
-        font-size: 14px;
-        color: $pantone_up;
-    }
-}
-
-.div-80 {
-    margin-top: 80px;
-
-    .subtitle {
-        font-family: $firaSans;
-        font-weight: 700;
-        font-size: 22px;
-        vertical-align: middle;
-        color: $elite_blue;
-        margin-bottom: 50px;
-        text-transform: capitalize;
-    }
+    background-color: $white_smoke;
 
     p {
         font-family: $firaSans;
         font-weight: 400;
-        font-size: 16px;
-        color: $pantone_up;
-    }
-
-    .meeting {
-        color: $white;
         font-size: 18px;
-        font-weight: 700;
-        margin-top: 100px;
-        font-family: $firaSans;
-        border-radius: 12px;
+        text-align: center !important;
+        color: $pantone_up;
+        margin-bottom: 50px;
     }
 
-    .img-meeting {
-        max-width: 536px;
+    .title {
+        font-family: $firaSans;
+        font-weight: 700;
+        font-size: 70px;
+        text-transform: uppercase;
+        color: $sandy_brown;
+        text-align: center;
+    }
 
-        img {
+    .div-39 {
+        @media only screen and (max-width: 768px) {
+            //width: 90%;
+            margin: 32px auto;
+            background-color: $white_smoke;
+        }
+
+        max-width: 280px;
+        //margin: 0 auto;
+        border-radius: 12px;
+        background-color: $white;
+
+        .svg {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            border-radius: 32px;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            background-color: rgb($sandy_brown, 0.2);
+        }
+
+        .subtitle {
+            font-family: $firaSans;
+            font-weight: 700;
+            font-size: 22px;
+            vertical-align: middle;
+            color: $elite_blue;
+            text-transform: capitalize;
+        }
+
+        .content {
+            font-family: $firaSans;
+            font-weight: 400;
+            font-size: 14px;
+            color: $pantone_up;
+        }
+    }
+
+    .div-80 {
+        margin-top: 80px;
+
+        .subtitle {
+            font-family: $firaSans;
+            font-weight: 700;
+            font-size: 22px;
+            vertical-align: middle;
+            color: $elite_blue;
+            margin-bottom: 50px;
+            text-transform: capitalize;
+        }
+
+        p {
+            font-family: $firaSans;
+            font-weight: 400;
+            font-size: 16px;
+            color: $pantone_up;
+        }
+
+        .meeting {
+            color: $white;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 100px;
+            font-family: $firaSans;
             border-radius: 12px;
+        }
+
+        .img-meeting {
+            max-width: 536px;
+
+            img {
+                border-radius: 12px;
+            }
         }
     }
 }
