@@ -21585,10 +21585,19 @@ has-background-danger.is-hoverable:active {
   background-color: #F4A260;
 }
 
+@media only screen and (width <= 640px) {
+  .span-hero-41, .span-hero-44, .span-hero-48 {
+    font-size: 60px;
+  }
+}
+@media only screen and (width > 640px) {
+  .span-hero-41, .span-hero-44, .span-hero-48 {
+    font-size: 100px;
+  }
+}
 .span-hero-41, .span-hero-44, .span-hero-48 {
   font-family: "Fira Code", monospace;
   font-weight: 700;
-  font-size: 100px;
   color: #FFFFFF;
   margin: -10px 0;
   transform: rotate(-1deg);
@@ -21610,134 +21619,273 @@ has-background-danger.is-hoverable:active {
   text-transform: uppercase;
 }
 
+@media only screen and (width <= 640px) {
+  .div-51 {
+    height: 48px;
+    font-size: 9px;
+  }
+}
+@media only screen and (width > 640px) {
+  .div-51 {
+    height: 80.5px;
+    font-size: 20px;
+  }
+}
 .div-51 {
   font-family: "Fira Code", monospace;
   font-weight: 400;
-  font-size: 20px;
   color: #FFFFFF;
-  height: 80.5px;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  border-radius: 16px;
   border: 4px solid #F4A260;
 }
 
+@media only screen and (width <= 640px) {
+  .div-51-inside {
+    height: 48px;
+    padding: 0 12px;
+  }
+}
+@media only screen and (width > 640px) {
+  .div-51-inside {
+    height: 80.5px;
+    padding: 0 8px;
+  }
+}
 .div-51-inside {
-  height: 80.5px;
   background-color: #334368;
-  border-top-left-radius: 16px;
-  border-bottom-left-radius: 16px;
+  backdrop-filter: opacity(20%);
+  border-radius: 16px;
   margin: -4px;
   margin-left: 0;
+  margin-right: 0;
   display: flex;
-  padding: 0 26px;
   align-items: center;
 }
 
+@media only screen and (width <= 640px) {
+  .button-div-69 {
+    width: 94px;
+    height: 44px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-69 {
+    width: 118px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+}
 .button-div-69 {
-  width: 118px;
-  height: 88px;
   transform: rotate(1.81deg);
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
   background-color: #F4A260;
 }
 
+@media only screen and (width <= 640px) {
+  .button-div-83 {
+    width: 94px;
+    height: 44px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-83 {
+    width: 118px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+}
 .button-div-83 {
-  width: 118px;
-  height: 88px;
   transform: rotate(1.19deg);
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
   background-color: #F4A260;
 }
 
+@media only screen and (width <= 640px) {
+  .button-div-76 {
+    width: 94px;
+    height: 44px;
+    border-radius: 8px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-76 {
+    width: 118px;
+    height: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+  }
+}
 .button-div-76 {
-  width: 118px;
-  height: 88px;
   transform: rotate(-1.41deg);
   color: #FFFFFF;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
   background-color: #334368;
 }
 
+@media only screen and (width <= 640px) {
+  .button-div-69 .button-div-top, .button-div-83 .button-div-top {
+    font-size: 15px;
+    padding-left: 12px;
+    margin-top: 4px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-69 .button-div-top, .button-div-83 .button-div-top {
+    font-size: 30px;
+    margin-bottom: -10px;
+    margin-top: -13px;
+    padding-left: 20px;
+    width: 118px;
+  }
+}
 .button-div-69 .button-div-top, .button-div-83 .button-div-top {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  padding-left: 20px;
-  width: 118px;
-  margin-bottom: -10px;
-  margin-top: -13px;
+}
+@media only screen and (width <= 640px) {
+  .button-div-69 .button-div-bottom, .button-div-83 .button-div-bottom {
+    font-size: 12px;
+    padding-left: 12px;
+    margin-top: -8px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-69 .button-div-bottom, .button-div-83 .button-div-bottom {
+    font-size: 14px;
+    width: 118px;
+    padding-left: 20px;
+    margin-top: -10px;
+  }
 }
 .button-div-69 .button-div-bottom, .button-div-83 .button-div-bottom {
   font-family: "Fira Code", monospace;
   font-weight: 700;
   font-size: 14px;
-  padding-left: 20px;
-  margin-top: -10px;
-  width: 118px;
   text-transform: uppercase;
 }
 
+@media only screen and (width <= 640px) {
+  .button-div-76 .button-div-top {
+    font-size: 15px;
+    padding-left: 12px;
+    margin-top: 4px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-76 .button-div-top {
+    font-size: 30px;
+    width: 118px;
+    padding-left: 20px;
+    margin-bottom: -10px;
+    margin-top: -13px;
+  }
+}
 .button-div-76 .button-div-top {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 30px;
-  padding-left: 20px;
-  width: 118px;
   color: #F4A260;
-  margin-bottom: -10px;
-  margin-top: -13px;
+}
+@media only screen and (width <= 640px) {
+  .button-div-76 .button-div-bottom {
+    font-size: 12px;
+    padding-left: 12px;
+    margin-top: -8px;
+  }
+}
+@media only screen and (width > 640px) {
+  .button-div-76 .button-div-bottom {
+    font-size: 14px;
+    width: 118px;
+    padding-left: 20px;
+    margin-top: -10px;
+  }
 }
 .button-div-76 .button-div-bottom {
   font-family: "Fira Code", monospace;
   font-weight: 700;
-  font-size: 14px;
-  padding-left: 20px;
-  margin-top: -10px;
-  width: 118px;
   text-transform: uppercase;
 }
 
+@media only screen and (width <= 640px) {
+  .xs\:flex {
+    display: flex;
+  }
+  .xs\:flex-row {
+    flex-direction: row;
+  }
+  .xs\:gap-6 {
+    gap: calc(var(--spacing) * 6);
+  }
+}
+@media only screen and (width <= 640px) {
+  .button-91 {
+    width: 165px;
+    height: 40px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .button-91 {
+    width: 330px;
+    height: 80px;
+  }
+}
 .button-91 {
   transform: rotate(-1deg);
   justify-content: center;
   border-radius: 16px;
   text-align: center;
   color: #FFFFFF;
-  width: 330px;
-  height: 80px;
   padding: 0;
   white-space: nowrap;
 }
 
+@media only screen and (width <= 640px) {
+  .button-97 {
+    width: 165px;
+    height: 40px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .button-97 {
+    width: 330px;
+    height: 80px;
+  }
+}
 .button-97 {
   transform: rotate(1deg);
   justify-content: center;
   border-radius: 16px;
   text-align: center;
   color: #FFFFFF;
-  width: 330px;
-  height: 80px;
   padding: 0;
   white-space: nowrap;
   border: 4px solid #FFFFFF;
 }
 
+@media only screen and (width <= 640px) {
+  .span-button-fira-code {
+    font-size: 10px;
+    margin-right: 10px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .span-button-fira-code {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
 .span-button-fira-code {
   font-family: "Fira Code", monospace;
-  margin-right: 10px;
   font-weight: 700;
-  font-size: 20px;
   color: #FFFFFF;
   text-transform: uppercase;
 }
@@ -21750,14 +21898,47 @@ has-background-danger.is-hoverable:active {
   margin-left: 10px;
 }
 
+@media only screen and (width <= 400px) {
+  .button-div-1307 {
+    margin-left: 50%;
+    margin-bottom: 40px;
+    transform: rotate(13deg);
+  }
+}
+@media only screen and (width > 400px) {
+  .button-div-1307 {
+    margin-left: 59%;
+    margin-bottom: 32px;
+    transform: rotate(15deg);
+  }
+}
+@media only screen and (width > 460px) {
+  .button-div-1307 {
+    margin-left: 63%;
+    margin-bottom: 32px;
+    transform: rotate(14deg);
+  }
+}
+@media only screen and (width > 495px) {
+  .button-div-1307 {
+    margin-left: 66%;
+    margin-bottom: 32px;
+    transform: rotate(13deg);
+  }
+}
+@media only screen and (width > 560px) {
+  .button-div-1307 {
+    margin-left: 360px;
+    transform: rotate(12deg);
+  }
+}
 .button-div-1307 {
   width: 175px;
   height: 96px;
   border-radius: 24px;
-  transform: rotate(12deg);
-  margin-left: 63%;
   z-index: 5;
   position: relative;
+  background-color: #F4A260;
   box-shadow: 0.5px 1px 1.5px #1f1f1f;
 }
 .button-div-1307 .pallete {
@@ -21873,15 +22054,42 @@ has-background-danger.is-hoverable:active {
   background-color: #F4A260;
 }
 
+@media only screen and (width <= 400px) {
+  .button-div-1319 {
+    margin-top: -90px;
+    margin-left: -10px;
+    transform: rotate(-6deg);
+  }
+}
+@media only screen and (width > 400px) {
+  .button-div-1319 {
+    margin-top: -80px;
+    margin-left: -8px;
+    transform: rotate(-7deg);
+  }
+}
+@media only screen and (width > 560px) {
+  .button-div-1319 {
+    margin-top: -80px;
+    margin-left: -8px;
+    transform: rotate(-12deg);
+  }
+}
+@media only screen and (width > 1024px) {
+  .button-div-1319 {
+    margin-top: -80px;
+    margin-left: -16px;
+    transform: rotate(-12deg);
+  }
+}
 .button-div-1319 {
   width: 166px;
   height: 96px;
+  background-color: #1A3556;
   border-radius: 24px;
   box-shadow: 0.5px 1px 1.5px #1f1f1f;
-  margin-top: -40px;
   z-index: 3;
   position: relative;
-  transform: rotate(-12deg);
 }
 .button-div-1319 .graph {
   width: 48px;

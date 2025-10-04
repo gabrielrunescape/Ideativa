@@ -25,7 +25,7 @@ const isEmpty = (value: string): boolean => {
 }
 
 
-export function BoxForm(servicos: Array<Servicos>) {
+export function BoxForm({servicos} : {servicos: Array<Servicos>}) {
     const [email, setEmail] = useState("");
     const [empresa, setEmpresa] = useState("");
     const [invalid, setInvalid] = useState();
@@ -195,8 +195,8 @@ export function BoxForm(servicos: Array<Servicos>) {
                             }) => setServico(e.target.value)}
                             renderAs="select" size="medium" fullwidth={true}
                         >
-                            { servicos.map((value) => (
-                                <option value={value.id}>{value.content}</option>
+                            { servicos.map((value, index) => (
+                                <option key={index} value={value.id}>{value.content}</option>
                             )) }
                         </Form.Select>
                     </Form.Control>

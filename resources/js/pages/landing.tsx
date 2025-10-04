@@ -14,7 +14,7 @@ import {
 } from 'react-bulma-components';
 
 import { iFooter as Footer } from '@/components/landing/ideativa_footer';
-import { iHeader as Header } from '@/components/landing/ideativa_header';
+import { IdeaHeader as Header } from '@/components/landing/ideativa_header';
 import { iHero as Hero } from '@/components/landing/ideativa_hero';
 import { ContactUs as Contact } from '@/components/landing/ideativa_contact';
 import { iAboutUs as AboutUs } from "@/components/landing/ideativa_about";
