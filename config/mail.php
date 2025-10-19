@@ -47,6 +47,11 @@ return [
             'password' => env('MAIL_PASSWORD'),
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url(env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
+            /**
+             * USO APENAS PARA DESENVOLVIMENTO LOCAL
+             *
+             * 'auth_mode' => null,
+             * 'verify_peer' => false,*/
         ],
 
         'ses' => [

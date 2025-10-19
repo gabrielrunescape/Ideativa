@@ -45,7 +45,7 @@ export function ContactUs() {
 
     return (
         <>
-            <Section className="contact-us">
+            <Section className="contact-us" id="contact-us">
                 <Container>
                     <Heading>Vamos Conversar?</Heading>
                     <div className="div-852">
@@ -58,17 +58,15 @@ export function ContactUs() {
                         <Columns.Column mt={5} size={4}>
                             {contacts.map((contact) => (
                                 <Box key={contact.id} className="box-contact">
-                                    <Columns>
-                                        <Columns.Column narrow={true}>
-                                            <div className="svg" dangerouslySetInnerHTML={{__html: contact.icon}}></div>
-                                        </Columns.Column>
+                                    <div className="flex flex-row">
+                                        <div className="svg" dangerouslySetInnerHTML={{__html: contact.icon}}></div>
 
-                                        <Columns.Column>
+                                        <div className="ml-2.5">
                                             <span>{contact.title}</span> <br />
 
                                             <a href={contact.link}>{contact.description}</a>
-                                        </Columns.Column>
-                                    </Columns>
+                                        </div>
+                                    </div>
                                 </Box>
                             )) }
                         </Columns.Column>

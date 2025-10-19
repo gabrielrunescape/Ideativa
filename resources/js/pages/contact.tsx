@@ -36,12 +36,6 @@ export default function Welcome() {
 
             <Header/>
 
-            <Hero/>
-
-            <AboutUs />
-
-            <Services />
-
             <Contact />
 
             <Footer />

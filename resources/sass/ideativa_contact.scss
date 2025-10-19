@@ -10,7 +10,6 @@
     color: $pantone_up;
     text-align: center;
     font-family: $firaSans;
-    //background-color: #F2F1F2;
     background-color: $white_smoke;
 
     .div-852 {
@@ -25,14 +24,14 @@
     }
 
     .title {
-        @media only screen and (max-width: 768px) {
-            font-size: 35px;
-        }
-
         font-size: 60px;
         font-weight: 700;
         color: $elite_blue;
         text-transform: uppercase;
+
+        @media only screen and (max-width: 768px) {
+            font-size: 35px;
+        }
     }
 
     .box-contact {

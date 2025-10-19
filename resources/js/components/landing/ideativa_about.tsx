@@ -1,4 +1,6 @@
-import {Button, Columns, Container, Heading, Image, Section} from 'react-bulma-components';
+import {Button, Columns, Container, Heading, Section} from 'react-bulma-components';
+
+import meeting from "/public/img/img-97-ea92e8068b4baa.jpg";
 
 export function iAboutUs() {
     const columns = [
@@ -40,38 +42,38 @@ export function iAboutUs() {
                 </p>
 
 
-                <Columns centered={true} multiline={true}>
-                { columns.map(column => (
-                    <Columns.Column narrow={true} className="div-39">
+                <div className="md:grid md:grid-cols-2 lg:grid-cols-4">
+                { columns.map((column, index) => (
+                    <div key={index} className="div-39">
                         <div className="svg" dangerouslySetInnerHTML={{__html: column.img}}></div>
-                        <Heading className="subtitle">{column.title}</Heading>
-                        <p className="content">{column.content}</p>
-                    </Columns.Column>
+                        <div className="subtitle">{column.title}</div>
+                        <div className="content">{column.content}</div>
+                    </div>
                 )) }
-                </Columns>
+                </div>
 
                 <Columns className="div-80">
                     <Columns.Column>
-                        <Heading className="subtitle">A nossa Missão</Heading>
+                        <div className="subtitle">A nossa Missão</div>
 
-                        <p>
+                        <div className="paragraph">
                             Preparamos e qualificamos negócios ambiciosos com soluções digitais inovadoras e seguras.
-                        </p>
-                        <p>
+                        </div>
+                        <div className="paragraph">
                             A nossa missão é ser o parceiro estratégico que transforma ideias em realidades digitais de
                             sucesso!
-                        </p>
-                        <p>
+                        </div>
+                        <div className="paragraph">
                             Combinamos criatividade, tecnologia e estratégia para entregar resultados que superam
                             expectativas
                             e impulsionam o crescimento sustentável dos nossos clientes.
-                        </p>
+                        </div>
 
                         <Button color={"warning"} className="meeting">Marcar uma reunião</Button>
                     </Columns.Column>
 
                     <Columns.Column className="img-meeting">
-                        <Image src="img/img-97-ea92e8068b4baa.jpg" />
+                        <img src={meeting} alt="" />
                     </Columns.Column>
                 </Columns>
             </Container>

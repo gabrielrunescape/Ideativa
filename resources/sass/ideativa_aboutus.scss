@@ -17,9 +17,19 @@
     }
 
     .title {
+        @media only screen and (width < 640) {
+            font-size: 50px;
+        }
+        @media only screen and (width < 768px) {
+            font-size: 60px;
+        }
+
+        @media only screen and (width >= 768px) {
+            font-size: 70px;
+        }
+
         font-family: $firaSans;
         font-weight: 700;
-        font-size: 70px;
         text-transform: uppercase;
         color: $sandy_brown;
         text-align: center;
@@ -27,13 +37,15 @@
 
     .div-39 {
         @media only screen and (max-width: 768px) {
-            //width: 90%;
             margin: 32px auto;
-            background-color: $white_smoke;
+        }
+
+        @media only screen and (width > 768px) {
+            margin: 0 auto;
         }
 
         max-width: 280px;
-        //margin: 0 auto;
+        padding: 20px;
         border-radius: 12px;
         background-color: $white;
 
@@ -49,9 +61,17 @@
         }
 
         .subtitle {
+            @media only screen and (width < 640) {
+                font-size: 12px;
+            }
+
+            @media only screen and (width >= 640px) {
+                font-size: 22px;
+            }
+
             font-family: $firaSans;
             font-weight: 700;
-            font-size: 22px;
+            text-align: left;
             vertical-align: middle;
             color: $elite_blue;
             text-transform: capitalize;
@@ -61,6 +81,8 @@
             font-family: $firaSans;
             font-weight: 400;
             font-size: 14px;
+            text-align: left;
+            align-content: start;
             color: $pantone_up;
         }
     }
@@ -78,7 +100,7 @@
             text-transform: capitalize;
         }
 
-        p {
+        .paragraph {
             font-family: $firaSans;
             font-weight: 400;
             font-size: 16px;

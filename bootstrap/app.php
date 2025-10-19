@@ -21,6 +21,16 @@ return Application::configure(basePath: dirname(__DIR__))
             HandleInertiaRequests::class,
             AddLinkHeadersForPreloadedAssets::class,
         ]);
+
+        /*
+         * USO APENAS PARA DESENVOLVIMENTO LOCAL.
+         *
+         * $middleware->validateCsrfTokens(except: [
+         *   'http://ideativa.test/send-email',
+         *   'https://ideativa.test/send-email',
+         *   'http://ideativa.test:8000/send-email',
+         *   'https://ideativa.test:8000/send-email'
+         * ]);*/
     })
     ->withExceptions(function (Exceptions $exceptions) {
         //
