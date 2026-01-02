@@ -18,6 +18,7 @@ import { IdeaHeader as Header } from '@/components/landing/ideativa_header';
 import { iHero as Hero } from '@/components/landing/ideativa_hero';
 import { ContactUs as Contact } from '@/components/landing/ideativa_contact';
 import { iAboutUs as AboutUs } from "@/components/landing/ideativa_about";
+import { iProccess as Proccess } from "@/components/landing/ideativa_proccess";
 import { iServices as Services } from "@/components/landing/ideativa_services";
 
 import favicon from '/public/favicon.ico';
@@ -41,6 +42,8 @@ export default function Welcome() {
             <AboutUs />
 
             <Services />
+
+            <Proccess />
 
             <Contact />
 

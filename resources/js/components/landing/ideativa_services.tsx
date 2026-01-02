@@ -97,7 +97,7 @@ export function iServices() {
                                     <Box className="box-column">
                                         <span className="subtitle">{box.title}</span>
 
-                                        <p className="mt-4 has-text-white-bis">{box.description}</p>
+                                        <p className="mt-4 content">{box.description}</p>
                                     </Box>
                                 </Columns.Column>
                             )) }

@@ -22133,10 +22133,24 @@ has-background-danger.is-hoverable:active {
   color: #4B5563;
   margin-bottom: 50px;
 }
+@media only screen and (width < 640) {
+  .about-us .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (width < 768px) {
+  .about-us .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (width >= 768px) {
+  .about-us .title {
+    font-size: 70px;
+  }
+}
 .about-us .title {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 70px;
   text-transform: uppercase;
   color: #F4A260;
   text-align: center;
@@ -22144,11 +22158,16 @@ has-background-danger.is-hoverable:active {
 @media only screen and (max-width: 768px) {
   .about-us .div-39 {
     margin: 32px auto;
-    background-color: #F4F4F3;
+  }
+}
+@media only screen and (width > 768px) {
+  .about-us .div-39 {
+    margin: 0 auto;
   }
 }
 .about-us .div-39 {
   max-width: 280px;
+  padding: 20px;
   border-radius: 12px;
   background-color: #FFFFFF;
 }
@@ -22162,10 +22181,20 @@ has-background-danger.is-hoverable:active {
   margin-bottom: 24px;
   background-color: rgba(244, 162, 96, 0.2);
 }
+@media only screen and (width < 640) {
+  .about-us .div-39 .subtitle {
+    font-size: 12px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .about-us .div-39 .subtitle {
+    font-size: 22px;
+  }
+}
 .about-us .div-39 .subtitle {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 22px;
+  text-align: left;
   vertical-align: middle;
   color: #1A3556;
   text-transform: capitalize;
@@ -22174,6 +22203,8 @@ has-background-danger.is-hoverable:active {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 14px;
+  text-align: left;
+  align-content: start;
   color: #4B5563;
 }
 .about-us .div-80 {
@@ -22188,7 +22219,7 @@ has-background-danger.is-hoverable:active {
   margin-bottom: 50px;
   text-transform: capitalize;
 }
-.about-us .div-80 p {
+.about-us .div-80 .paragraph {
   font-family: "Fira Sans", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -22231,16 +22262,16 @@ has-background-danger.is-hoverable:active {
 .contact-us .div-852 p {
   max-width: 768px;
 }
-@media only screen and (max-width: 768px) {
-  .contact-us .title {
-    font-size: 35px;
-  }
-}
 .contact-us .title {
   font-size: 60px;
   font-weight: 700;
   color: #1A3556;
   text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .contact-us .title {
+    font-size: 35px;
+  }
 }
 .contact-us .box-contact {
   border-radius: 12px;
@@ -22293,6 +22324,306 @@ has-background-danger.is-hoverable:active {
   font-family: "Fira Sans", sans-serif;
 }
 
+.process {
+  background-color: #F4F4F3;
+}
+.process p {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #4B5563;
+  max-width: 768px;
+  margin: 0 auto 50px auto;
+  text-align: center !important;
+}
+@media only screen and (width < 468px) {
+  .process .title {
+    font-size: 35px;
+  }
+}
+@media only screen and (width < 640px) {
+  .process .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (width < 768px) {
+  .process .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (width >= 768px) {
+  .process .title {
+    font-size: 70px;
+    margin-top: 48px;
+  }
+}
+.process .title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F4A260;
+  text-align: center;
+}
+.process .title, .process .title-373 {
+  color: #1A3556;
+}
+@media only screen and (max-width: 768px) {
+  .process .div-262 {
+    margin: 32px auto;
+  }
+}
+@media only screen and (width > 768px) {
+  .process .div-262 {
+    margin: 0 auto;
+  }
+}
+.process .div-262 {
+  padding: 20px;
+  max-width: 218px;
+  min-height: 298px;
+  border-radius: 12px;
+  background-color: #FFFFFF;
+}
+.process .div-262 .svg {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  border-radius: 32px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 14px auto;
+  background-color: #F4A260;
+}
+@media only screen and (width < 640) {
+  .process .div-262 .title-id {
+    font-size: 18px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .process .div-262 .title-id {
+    font-size: 30px;
+  }
+}
+.process .div-262 .title-id {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  margin: auto;
+  color: #1A3556;
+  text-align: center;
+  vertical-align: middle;
+}
+@media only screen and (width < 640) {
+  .process .div-262 .subtitle {
+    font-size: 18px;
+  }
+}
+@media only screen and (width >= 640px) {
+  .process .div-262 .subtitle {
+    font-size: 18px;
+  }
+}
+.process .div-262 .subtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  margin: auto 10px;
+  vertical-align: middle;
+  color: #1A3556;
+}
+.process .div-262 .content {
+  font-size: 14px;
+  max-width: 145px;
+  font-weight: 400;
+  color: #4B5563;
+  text-align: center;
+  align-content: start;
+  font-family: "Fira Sans", sans-serif;
+  margin: 10px auto 0 auto;
+}
+.process .div-262:hover {
+  cursor: pointer;
+  filter: contrast(95%);
+}
+.process .arrow_process {
+  top: 50%;
+  z-index: 5;
+  right: 16px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+@media only screen and (max-width: 768px) {
+  .process .arrow_process {
+    top: 87.5%;
+    z-index: 5;
+    right: 50%;
+    width: 16px;
+    height: 16px;
+    rotate: 90deg;
+    position: absolute;
+  }
+}
+.process .div-80 {
+  margin-top: 80px;
+}
+.process .div-80 .subtitle {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  vertical-align: middle;
+  color: #1A3556;
+  margin-bottom: 50px;
+  text-transform: capitalize;
+}
+.process .div-80 .paragraph {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #4B5563;
+}
+.process .div-80 .meeting {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 100px;
+  font-family: "Fira Sans", sans-serif;
+  border-radius: 12px;
+}
+.process .div-80 .img-meeting {
+  max-width: 536px;
+}
+.process .div-80 .img-meeting img {
+  border-radius: 12px;
+}
+.process .button-368 {
+  width: 190px;
+  height: 60px;
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  margin-top: 20px;
+  background-color: #1A3556;
+}
+.process .button-368:hover {
+  filter: contrast(90%);
+}
+.process .teammates {
+  margin: 0 auto;
+  max-width: 280px;
+  border-radius: 12px;
+  background: rgba(0, 0, 0, 0);
+}
+.process .teammates .slide_in {
+  position: relative;
+}
+.process .teammates .slide_in .image_slide {
+  display: flex;
+  height: 350px;
+  width: 280px;
+  border-radius: 12px 12px 0 0;
+  align-items: center;
+  justify-content: center;
+}
+.process .teammates .slide_in .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  transition: 0.5s ease;
+  border-radius: 12px 12px 0 0;
+  background: rgba(244, 162, 96, 0.33);
+}
+.process .teammates .slide_in .text {
+  white-space: nowrap;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  font-family: "Fira Sans", sans-serif;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.process .teammates .slide_in:hover .overlay {
+  width: 100%;
+}
+.process .teammates .title {
+  margin: 10px 0;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: start;
+  color: #1A3556;
+  text-transform: capitalize;
+}
+.process .teammates .title-position {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #F4A260;
+  text-align: start !important;
+}
+.process .teammates p {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 300;
+  color: #4B5563;
+  text-align: start !important;
+}
+.process .teammates ul li {
+  margin: 4px;
+  display: inline-block;
+}
+.process .teammates ul li .tag {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 8px 12px;
+  color: #1A3556;
+  border-radius: 32px;
+  background-color: #FFFFFF;
+}
+.process .teammates ul li .tag:hover {
+  cursor: pointer;
+  color: #F4F4F3;
+  background-color: #334368;
+}
+.process .box-stylized {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/img/DIV-740.png");
+}
+.process .box-stylized .title {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+}
+.process .box-stylized p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 16px auto;
+  color: #D1D5DB;
+}
+.process .box-stylized .button-573 {
+  border: none;
+  height: 60px;
+  color: #FFFFFF;
+  font-size: 16px;
+  max-width: 305px;
+  font-weight: 700;
+  margin: 24px auto;
+  border-radius: 8px;
+  background-color: #F4A260;
+}
+.process .box-stylized .button-573:hover {
+  filter: contrast(90%);
+}
+
 .services {
   font-family: "Fira Sans", sans-serif;
 }
@@ -22309,18 +22640,27 @@ has-background-danger.is-hoverable:active {
 .services .div-100 p {
   max-width: 768px;
 }
+@media only screen and (width < 450px) {
+  .services .title.is-1 {
+    font-size: 30px;
+  }
+}
+@media only screen and (width >= 450px) {
+  .services .title.is-1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (width >= 768px) {
+  .services .title.is-1 {
+    font-size: 70px;
+  }
+}
 .services .title.is-1 {
   font-family: "Fira Sans", sans-serif;
   font-weight: 700;
-  font-size: 70px;
   text-transform: uppercase;
   color: #1A3556;
   text-align: center;
-}
-@media only screen and (max-width: 768px) {
-  .services .title.is-1 {
-    font-size: 35px;
-  }
 }
 @media only screen and (max-width: 768px) {
   .services .card {
@@ -22373,6 +22713,7 @@ has-background-danger.is-hoverable:active {
 }
 .services .box-services {
   color: #FFFFFF;
+  padding: 48px;
   font-size: 20px;
   font-weight: 400;
   text-align: center;
@@ -22404,8 +22745,9 @@ has-background-danger.is-hoverable:active {
 .services .box-services .box-column .content {
   font-size: 16px;
   margin-top: 20px;
-  font-weight: 200;
+  font-weight: 400;
   color: #D1D5DB;
+  font-family: "Fira Sans", sans-serif;
 }
 @media only screen and (max-width: 768px) {
   .services .box-services .button {

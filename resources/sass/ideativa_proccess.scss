@@ -1,0 +1,326 @@
+@use "ideativa_variables.module" as *;
+
+.process {
+    background-color: $white_smoke;
+
+    p {
+        font-family: $firaSans;
+        font-weight: 400;
+        font-size: 18px;
+        color: $pantone_up;
+        max-width: 768px;
+        margin: 0 auto 50px auto;
+        text-align: center !important;
+    }
+
+    .title {
+        @media only screen and (width < 468px) {
+            font-size: 35px;
+        }
+
+        @media only screen and (width < 640px) {
+            font-size: 50px;
+        }
+        @media only screen and (width < 768px) {
+            font-size: 60px;
+        }
+
+        @media only screen and (width >= 768px) {
+            font-size: 70px;
+            margin-top: 48px;
+        }
+
+        font-family: $firaSans;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $sandy_brown;
+        text-align: center;
+    }
+
+    .title, .title-373 {
+        color: $elite_blue;
+    }
+
+    .div-262 {
+        @media only screen and (max-width: 768px) {
+            margin: 32px auto;
+        }
+
+        @media only screen and (width > 768px) {
+            margin: 0 auto;
+        }
+
+        padding: 20px;
+        max-width: 218px;
+        min-height: 298px;
+        border-radius: 12px;
+        background-color: $white;
+
+        .svg {
+            width: 64px;
+            height: 64px;
+            display: flex;
+            border-radius: 32px;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 14px auto;
+            background-color: $sandy_brown;
+        }
+
+        .title-id {
+            @media only screen and (width < 640) {
+                font-size: 18px;
+            }
+
+            @media only screen and (width >= 640px) {
+                font-size: 30px;
+            }
+
+            font-family: $firaSans;
+            font-weight: 700;
+            margin: auto;
+            color: $elite_blue;
+            text-align: center;
+            vertical-align: middle;
+        }
+
+        .subtitle {
+            @media only screen and (width < 640) {
+                font-size: 18px;
+            }
+
+            @media only screen and (width >= 640px) {
+                font-size: 18px;
+            }
+
+            font-family: $firaSans;
+            font-weight: 700;
+            text-align: center;
+            margin: auto 10px;
+            vertical-align: middle;
+            color: $elite_blue;
+        }
+
+        .content {
+            font-size: 14px;
+            max-width: 145px;
+            font-weight: 400;
+            color: $pantone_up;
+            text-align: center;
+            align-content: start;
+            font-family: $firaSans;
+            margin: 10px auto 0 auto;
+        }
+    }
+
+    .div-262:hover {
+        cursor: pointer;
+        filter: contrast(95%);
+    }
+
+    .arrow_process {
+        top: 50%;
+        z-index: 5;
+        right: 16px;
+        width: 16px;
+        height: 16px;
+        position: absolute;
+
+        @media only screen and (max-width: 768px) {
+            top: 87.5%;
+            z-index: 5;
+            right: 50%;
+            width: 16px;
+            height: 16px;
+            rotate: 90deg;
+            position: absolute;
+        }
+    }
+
+    .div-80 {
+        margin-top: 80px;
+
+        .subtitle {
+            font-family: $firaSans;
+            font-weight: 700;
+            font-size: 22px;
+            vertical-align: middle;
+            color: $elite_blue;
+            margin-bottom: 50px;
+            text-transform: capitalize;
+        }
+
+        .paragraph {
+            font-family: $firaSans;
+            font-weight: 400;
+            font-size: 16px;
+            color: $pantone_up;
+        }
+
+        .meeting {
+            color: $white;
+            font-size: 18px;
+            font-weight: 700;
+            margin-top: 100px;
+            font-family: $firaSans;
+            border-radius: 12px;
+        }
+
+        .img-meeting {
+            max-width: 536px;
+
+            img {
+                border-radius: 12px;
+            }
+        }
+    }
+
+    .button-368 {
+        width: 190px;
+        height: 60px;
+        color: $white;
+        font-size: 18px;
+        font-weight: 700;
+        border-radius: 8px;
+        margin-top: 20px;
+        background-color: $elite_blue;
+    }
+
+    .button-368:hover {
+        filter: contrast(90%);
+    }
+
+    .teammates {
+        margin: 0 auto;
+        max-width: 280px;
+        border-radius: 12px;
+        background: rgb(0,0, 0, 0);
+
+        .slide_in {
+            position: relative;
+
+            .image_slide {
+                display: flex;
+                height: 350px;
+                width: 280px;
+                border-radius: 12px 12px 0 0;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .overlay {
+                bottom: 0;
+                left: 0;
+                right: 0;
+                width: 0;
+                height: 100%;
+                overflow: hidden;
+                position: absolute;
+                transition: .5s ease;
+                border-radius: 12px 12px 0 0;
+                background: rgba(244, 162, 96, 0.33); //background-color: $sandy_brown;
+            }
+
+            .text {
+                white-space: nowrap;
+                color: white;
+                font-size: 20px;
+                position: absolute;
+                overflow: hidden;
+                top: 50%;
+                left: 50%;
+                font-family: $firaSans;
+                transform: translate(-50%, -50%);
+                -ms-transform: translate(-50%, -50%);
+            }
+        }
+
+        .slide_in:hover .overlay {
+            width: 100%;
+        }
+
+        .title {
+            margin: 10px 0;
+            font-size: 18px;
+            font-weight: 700;
+            text-align: start;
+            color: $elite_blue;
+            text-transform: capitalize;
+        }
+
+        .title-position {
+            margin: 0;
+            font-size: 14px;
+            font-weight: 400;
+            color: $sandy_brown;
+            text-align: start !important;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 14px;
+            font-weight: 300;
+            color: $pantone_up;
+            text-align: start !important;
+        }
+
+        ul {
+            li {
+                margin: 4px;
+                display: inline-block;
+
+                .tag {
+                    font-size: 12px;
+                    font-weight: 500;
+                    padding: 8px 12px;
+                    color: $elite_blue;
+                    border-radius: 32px;
+                    background-color: $white;
+                }
+
+                .tag:hover {
+                    cursor: pointer;
+                    color: $white_smoke;
+                    background-color: $pantone_blue;
+                }
+            }
+        }
+    }
+
+    .box-stylized {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/img/DIV-740.png");
+
+        .title {
+            color: $white;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: $firaSans;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            margin: 16px auto;
+            color: $pantone_cp;
+        }
+
+        .button-573 {
+            border: none;
+            height: 60px;
+            color: $white;
+            font-size: 16px;
+            max-width: 305px;
+            font-weight: 700;
+            margin: 24px auto;
+            border-radius: 8px;
+            background-color: $sandy_brown;
+        }
+
+        .button-573:hover {
+            filter: contrast(90%);
+        }
+    }
+}

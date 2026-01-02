@@ -9,6 +9,7 @@
         "format:check": "prettier --check resources/",
         "lint": "eslint . --fix",
         "types": "tsc --noEmit",
+        "server": "php artisan serve",
         "bulma-build": "sass --load-path=node_modules resources/sass/ideativa.scss public/css/ideativa_style.css",
         "bulma-watch": "npm run bulma-build -- --watch"
     },

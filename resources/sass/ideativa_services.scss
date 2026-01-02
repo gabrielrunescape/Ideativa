@@ -94,6 +94,7 @@
         }
 
         color: $white;
+        padding: 48px;
         font-size: 20px;
         font-weight: 400;
         text-align: center;
@@ -125,8 +126,9 @@
             .content {
                 font-size: 16px;
                 margin-top: 20px;
-                font-weight: 200;
+                font-weight: 400;
                 color: $pantone_cp;
+                font-family: $firaSans;
             }
         }
 
