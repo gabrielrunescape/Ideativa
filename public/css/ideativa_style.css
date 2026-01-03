@@ -22624,6 +22624,174 @@ has-background-danger.is-hoverable:active {
   filter: contrast(90%);
 }
 
+.projects {
+  background-color: #F4F4F3;
+}
+@media only screen and (width < 468px) {
+  .projects .title {
+    font-size: 35px;
+  }
+}
+@media only screen and (width < 640px) {
+  .projects .title {
+    font-size: 50px;
+  }
+}
+@media only screen and (width < 768px) {
+  .projects .title {
+    font-size: 60px;
+  }
+}
+@media only screen and (width >= 768px) {
+  .projects .title {
+    font-size: 70px;
+    margin-top: 48px;
+  }
+}
+.projects .title {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #F4A260;
+  text-align: center;
+}
+.projects p {
+  font-size: 18px;
+  max-width: 768px;
+  font-weight: 400;
+  text-align: center;
+  color: #4B5563;
+  font-family: "Fira Sans", sans-serif;
+  margin: 0 auto 50px auto;
+}
+.projects .card {
+  width: 383px;
+  margin: auto;
+  text-align: start;
+  background-color: rgba(244, 244, 243, 0);
+}
+.projects .card h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: start;
+  color: #1A3556;
+  font-family: "Fira Sans", sans-serif;
+}
+.projects .card p {
+  margin: 10px 0;
+  font-size: 16px;
+  font-weight: 300;
+  text-align: start;
+  color: #4B5563;
+  font-family: "Fira Sans", sans-serif;
+}
+.projects .card .button {
+  width: 100%;
+  border: none;
+  height: 40px;
+  color: #FFFFFF;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 8px;
+  background: #1A3556;
+  margin: 16px auto 0 auto;
+}
+.projects .card .button:hover {
+  background: rgba(26, 53, 86, 0.75);
+}
+.projects .tabs-587 {
+  margin: auto;
+  height: 56px;
+  max-width: 545px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+}
+@media only screen and (width < 454px) {
+  .projects .tabs-587 {
+    height: 80px;
+  }
+}
+.projects .tabs-587 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.projects .tabs-587 ul li {
+  margin: 4px;
+  text-align: center;
+  display: inline-block;
+}
+.projects .tabs-587 ul li .tag {
+  font-size: 12px;
+  font-weight: 400;
+  color: #1A3556;
+  background: #F4F4F3;
+}
+.projects .tabs-587 ul li:hover {
+  cursor: pointer;
+}
+.projects .tabs-587 ul .selected {
+  height: 40px;
+  color: #FFFFFF;
+  padding: 0 8px;
+  margin: 8px auto;
+  border-radius: 8px;
+  align-content: center;
+  background: #F4A260;
+}
+@media only screen and (width < 454px) {
+  .projects .tabs-587 ul .selected {
+    padding: 0;
+    height: 70px;
+    margin: auto 6px;
+  }
+}
+.projects .tabs-587 ul .unselected {
+  padding: 8px;
+  margin: 8px auto;
+  border-radius: 8px;
+  background: #FFFFFF;
+  color: #4B5563;
+}
+.projects .box-stylized {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("/img/DIV-740.png");
+}
+.projects .box-stylized .title {
+  color: #FFFFFF;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Fira Sans", sans-serif;
+}
+.projects .box-stylized p {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 16px auto;
+  color: #D1D5DB;
+}
+.projects .box-stylized .button-621 {
+  border: none;
+  height: 60px;
+  display: flex;
+  color: #FFFFFF;
+  font-size: 16px;
+  max-width: 305px;
+  font-weight: 700;
+  margin: 24px auto;
+  border-radius: 8px;
+  background-color: #F4A260;
+}
+@media only screen and (min-width: 768px) {
+  .projects .box-stylized .button-621 {
+    width: 305px;
+  }
+}
+.projects .box-stylized .button-573:hover {
+  filter: contrast(90%);
+}
+
 .services {
   font-family: "Fira Sans", sans-serif;
 }

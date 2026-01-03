@@ -1,0 +1,180 @@
+@use "ideativa_variables.module" as *;
+
+.projects {
+    background-color: $white_smoke;
+
+    .title {
+        @media only screen and (width < 468px) {
+            font-size: 35px;
+        }
+
+        @media only screen and (width < 640px) {
+            font-size: 50px;
+        }
+        @media only screen and (width < 768px) {
+            font-size: 60px;
+        }
+
+        @media only screen and (width >= 768px) {
+            font-size: 70px;
+            margin-top: 48px;
+        }
+
+        font-family: $firaSans;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: $sandy_brown;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        max-width: 768px;
+        font-weight: 400;
+        text-align: center;
+        color: $pantone_up;
+        font-family: $firaSans;
+        margin: 0 auto 50px auto;
+    }
+
+    .card {
+        width: 383px;
+        margin: auto;
+        text-align: start;
+        background-color: rgb($white_smoke, 0);
+
+        h3 {
+            font-size: 20px;
+            font-weight: 700;
+            text-align: start;
+            color: $elite_blue;
+            font-family: $firaSans;
+        }
+
+        p {
+            margin: 10px 0;
+            font-size: 16px;
+            font-weight: 300;
+            text-align: start;
+            color: $pantone_up;
+            font-family: $firaSans;
+        }
+
+        .button {
+            width: 100%;
+            border: none;
+            height: 40px;
+            color: $white;
+            font-size: 16px;
+            font-weight: 300;
+            border-radius: 8px;
+            background: $elite_blue;
+            margin: 16px auto 0 auto;
+        }
+
+        .button:hover {
+            background: rgba($elite_blue, 0.75);
+        }
+    }
+
+    .tabs-587 {
+        margin: auto;
+        height: 56px;
+        max-width: 545px;
+        border-radius: 16px;
+        background-color: $white;
+
+        @media only screen and (width < 454px) {
+            height: 80px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            li {
+                margin: 4px;
+                text-align: center;
+                display: inline-block;
+
+                .tag {
+                    font-size: 12px;
+                    font-weight: 400;
+                    color: $elite_blue;
+                    background: $white_smoke;
+                }
+            }
+
+            li:hover {
+                cursor: pointer;
+            }
+
+            .selected {
+                height: 40px;
+                color: $white;
+                padding: 0 8px;
+                margin: 8px auto;
+                border-radius: 8px;
+                align-content: center;
+                background: $sandy_brown;
+
+                @media only screen and (width < 454px) {
+                    padding: 0;
+                    height: 70px;
+                    margin: auto 6px;
+                }
+            }
+
+            .unselected {
+                padding: 8px;
+                margin: 8px auto;
+                border-radius: 8px;
+                background: $white;
+                color: $pantone_up;
+            }
+        }
+    }
+
+    .box-stylized {
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url("/img/DIV-740.png");
+
+        .title {
+            color: $white;
+            font-size: 30px;
+            font-weight: 700;
+            font-family: $firaSans;
+        }
+
+        p {
+            font-size: 20px;
+            font-weight: 300;
+            margin: 16px auto;
+            color: $pantone_cp;
+        }
+
+        .button-621 {
+            border: none;
+            height: 60px;
+            display: flex;
+            color: $white;
+            font-size: 16px;
+            max-width: 305px;
+            font-weight: 700;
+            margin: 24px auto;
+            border-radius: 8px;
+            background-color: $sandy_brown;
+
+            @media only screen and (min-width: 768px) {
+                width: 305px;
+            }
+        }
+
+        .button-573:hover {
+            filter: contrast(90%);
+        }
+    }
+}
